@@ -50,8 +50,6 @@ header p {
 
 .jumbotron .container {
   display: block;
-  padding: 2rem;
-  
 }
 
 .jumbotron .container .row {
@@ -76,7 +74,7 @@ header p {
   justify-content: center;
   width: 100%;
   padding: 1rem;
-  margin: auto;
+  margin: .5rem;
   
 }
 
