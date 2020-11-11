@@ -59,6 +59,7 @@ header p {
 
 .jumbotron .container .row {
   display: flex;
+  flex-wrap: wrap;
   border-radius: 25px;
   background-color: rgba(21,37,31,.96);
   color: #d3d3d3;
