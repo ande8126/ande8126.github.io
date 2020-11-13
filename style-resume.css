@@ -1,3 +1,6 @@
+
+}
+
 body {
   font-family: Arial, Helvitica, sans-serif;
 }
@@ -60,6 +63,7 @@ header p {
 .jumbotron .container .row {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   border-radius: 25px;
   background-color: rgba(21,37,31,.96);
   color: #d3d3d3;
@@ -68,16 +72,14 @@ header p {
   width: 100%;
 }
 
-.col-sm-3 {
+.col-sm-2 {
   display: flex;
-  justify-content: center;
   flex-wrap: wrap;
   padding: .25rem;
-  width: 30%;
   
 }
 
-.col-sm-3 img {
+.col-sm-2 img {
   display: flex;
   justify-content: center;
   width: 100%;
@@ -86,26 +88,27 @@ header p {
   
 }
 
-.col-sm-7 {
+.col-sm-6 {
   display: block;
   padding: 1rem;
   width: 70%;
 }
 
-.col-sm-7 h2{
+.col-sm-6 h2{
   display: flex;
   flex-wrap: wrap;
   text-transform: uppercase;
-  font-size: 8vw;
+  font-size: 7vw;
   font-weight: 700;
   margin: auto;
   padding: 0rem 1rem;
 }
 
-.col-sm-7 p1{
+.col-sm-6 p1{
   display: flex;
+  justify-content: center;
   flex-wrap: wrap;
-  font-size: 12px;
+  font-size: .8vw;
   padding: 0rem 1rem;
 }
 
@@ -139,6 +142,4 @@ p2 {
   font-weight: 600;
   padding: 0, 1rem;
 }
-
-
 
