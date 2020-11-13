@@ -91,3 +91,23 @@ header p {
   width: 32px;
   height: 32px;
 }
+
+footer {
+  padding: .5rem;
+  margin: 1rem;  
+  display: flex;
+  flex-wrap: wrap;
+}
+
+p5 {
+  display: flex;
+  font-size: 12px;
+}
+
+p6 {
+  display: flex;
+  justify-content: flex-end;
+  font-size: 12px; 
+}
+
+
