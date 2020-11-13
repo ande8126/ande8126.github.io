@@ -45,6 +45,7 @@ header p {
   background-position: center, center;
   height: 700px;
   justify-content: flex-end;
+  padding-bottom: 1rem;
 }
 
 .col-sm-5 {
@@ -95,19 +96,17 @@ header p {
 footer {
   padding: .5rem;
   margin: 1rem;  
-  display: flex;
-  flex-wrap: wrap;
+  font-size: 14px;
 }
 
-p5 {
-  display: flex;
-  font-size: 12px;
+
+footer .row {
+  padding: 0 2rem;
+  width: 100%;
 }
+
 
 p6 {
   display: flex;
-  justify-content: flex-end;
-  font-size: 12px; 
+  justify-content: flex-end;  
 }
-
-
